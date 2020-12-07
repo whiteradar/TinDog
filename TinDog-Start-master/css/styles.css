@@ -1,0 +1,246 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+
+
+
+/* title section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-right: 4%;
+}
+
+
+/* Section 2 */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+/* icons */
+.sec2 {
+  text-align: center;
+  background-color: #fff;
+}
+
+.sec2-icons {
+  color: #ef8172;
+  padding-top: 100px;
+}
+
+.sec2-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  /* width: 50%;
+  margin: auto;
+  text-align: center; */
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+/* Section Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-header{
+  color: white;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+#footer{
+
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 15% 1% 15%;
+
+
+
+}
+
+.link-tags{
+      padding: 1% 1%;
+
+}
+
+.link-tags:hover{
+  color:#ff4c68;
+
+
+}
+
+.copyright{
+  margin-top: 2%;
+
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Types of selectors
+
+1. Multiple selectors
+
+h1, h2, h3, {}
+
+Will apply css to all the headers listed
+
+2. Hierachial selectors
+
+selector1 selector2 {}
+parent child {}
+bigbox smallbox {}
+   <--------
+Is read from right to left. Is to drill down on the specific selector in the child.
+
+
+3.Combined selectors
+
+selector1.selector2 {}
+
+Read from left to right
+*/
+
+
+/*
+Preference of selectors
+ID --> Class --> HTML -->
+*/
+
+
+/*
+
+HTML reads elements from top to bottom. Meaning the lowest line is what will be applied.
+
+Use ID's sparingly, only for large bits of sections.
+
+Avoid inline styles
+
+Make the class names very specific
+
+
+*/
